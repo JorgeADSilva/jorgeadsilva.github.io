@@ -22,10 +22,7 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #2c98f0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  color: #2c98f0; }
   a:hover, a:active, a:focus {
     color: #2c98f0;
     outline: none;
@@ -80,10 +77,7 @@ figure {
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
-  background: #f2f3f7;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  background: #f2f3f7;}
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
@@ -144,10 +138,7 @@ figure {
           text-decoration: none;
           position: relative;
           padding: 10px 0;
-          font-family: "Quicksand", Arial, sans-serif;
-          -webkit-transition: 0.3s;
-          -o-transition: 0.3s;
-          transition: 0.3s; }
+          font-family: "Quicksand", Arial, sans-serif;}
           #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
@@ -161,12 +152,7 @@ figure {
             -moz-transform: scaleX(0);
             -ms-transform: scaleX(0);
             -o-transform: scaleX(0);
-            transform: scaleX(0);
-            -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            transform: scaleX(0);}
           #colorlib-aside #colorlib-main-menu ul li a:hover {
             text-decoration: none;
             color: black; }
@@ -221,10 +207,7 @@ figure {
 
 #colorlib-main {
   width: calc(100% - 300px);
-  float: right;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  float: right; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
@@ -880,10 +863,7 @@ body.offcanvas {
       -moz-transform: scale(1);
       -ms-transform: scale(1);
       -o-transform: scale(1);
-      transform: scale(1);
-      -webkit-transition: 0.3s;
-      -o-transition: 0.3s;
-      transition: 0.3s; }
+      transform: scale(1);}
   .blog-entry .desc h3 {
     font-size: 16px;
     margin-bottom: 25px;
@@ -942,10 +922,7 @@ body.offcanvas {
     left: 0;
     right: 0;
     background: #2c98f0;
-    opacity: 0;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s; }
+    opacity: 0; }
     .project .desc .con {
       padding: 20px;
       display: block;
@@ -976,12 +953,6 @@ body.offcanvas {
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1px;
-      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
@@ -991,12 +962,6 @@ body.offcanvas {
       display: block;
       color: rgba(255, 255, 255, 0.7);
       font-size: 13px;
-      -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-      -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-      transition: opacity 0.3s, -webkit-transform 0.3s;
-      -o-transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s;
-      transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, 15px, 0);
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
@@ -1169,9 +1134,6 @@ body.offcanvas {
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   border-radius: 2px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
   padding: 8px 15px !important; }
   .btn.btn-sm {
     padding: 4px 15px !important; }
@@ -1262,10 +1224,7 @@ body.offcanvas {
 .btn-outline {
   background: none;
   border: 2px solid gray;
-  font-size: 16px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
+  font-size: 16px; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
     -webkit-box-shadow: none;
     box-shadow: none; }
@@ -1282,9 +1241,6 @@ body.offcanvas {
   height: 54px;
   font-size: 16px;
   font-weight: 400;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -1321,32 +1277,20 @@ body.offcanvas {
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    transition: all .2s ease-out; }
+    background: #000; }
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
       width: 30px;
       height: 2px;
       background: #000;
       position: absolute;
-      left: 0;
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s; }
+      left: 0;}
   .colorlib-nav-toggle.dark i {
     position: relative;
     color: #000;
-    background: #000;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
-    transition: all .2s ease-out; }
+    background: #000;}
     .colorlib-nav-toggle.dark i::before, .colorlib-nav-toggle.dark i::after {
-      background: #000;
-      -webkit-transition: 0.2s;
-      -o-transition: 0.2s;
-      transition: 0.2s; }
+      background: #000;}
 
 .colorlib-nav-toggle i::before {
   top: -7px; }
@@ -1387,10 +1331,7 @@ body.offcanvas {
   cursor: pointer;
   opacity: 1;
   visibility: hidden;
-  padding: 20px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
+  padding: 20px; }
   @media screen and (max-width: 768px) {
     .colorlib-nav-toggle {
       opacity: 1;
