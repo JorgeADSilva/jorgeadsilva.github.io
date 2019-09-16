@@ -879,7 +879,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1  " >
-									<form method="POST" action="https://formspree.io/jorge16silva@gmail.com">
+									<form method="POST" action="https://formspree.io/jorge16silva@gmail.com" id="contactform">
 										<div class="form-group">
 											<input type="text" name="name" class="form-control" placeholder="Name">
 										</div>
@@ -896,6 +896,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
 										</div>
 									</form>
+									<button onclick="loadDoc()" class="btn btn-primary btn-send-message" value="Send Message">Send Message</button>
+
 								</div>
 								
 							</div>
@@ -903,7 +905,19 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 				</div>
 			</section>
-
+			<script>
+				function loadDoc() {
+					message = $("#contactform").serialize();
+					$.ajax({
+        url: "//formspree.io/dynamicrealities@gmail.com", 
+        method: "POST",
+        data: {message: message},
+        dataType: "json"
+    });
+    alert('Thanks for the email, we\'ll be in touch promptly.');
+	return false;
+				}
+				</script>
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
 	</div><!-- end:colorlib-page -->
